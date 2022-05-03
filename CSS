@@ -1,0 +1,189 @@
+header{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container{
+    width: 100vw;
+    background-color: rgb(53, 58, 64);
+    display: flex;
+    flex-direction: row;
+    font-family: 'Calibri';
+    color: white;
+}
+
+.bg-color-personal{
+  --bs-bg-opacity: 1;
+  background-color: rgb(53,58,64) !important;
+}
+
+nav{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Calibri';
+  color: white;
+}
+
+nav img{
+    display: flex;
+    width: 15vw;
+    height: 5vw;
+    padding-left: 7vw;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    background-color:  rgb(53, 58, 64);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    color: rgb(152, 149, 149);
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+
+  li a:hover {
+    color: white;
+  }
+
+  .clip{
+    display: flex;
+    flex-direction: row;
+    height: 640px;
+    overflow: hidden;
+  }
+
+
+  div.carousel-inner div.carousel-item::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #2121218c;
+    content: "";
+
+  }
+  div.carousel-inner{
+    flex-direction: row;
+    object-fit:cover;
+    top:-160px;
+    object-position: bottom;
+  }
+  
+  .carousel-caption{
+    position: absolute;
+    top: 380px;
+    left: 780px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: right;
+    justify-content: flex-end;
+  }
+
+  .subtitle{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    text-align: center;
+  }
+    .card-text{
+      margin: 0%;
+    }
+   .card-deck{
+     display: flex;
+     flex-direction: row;
+     width: 80%;
+     margin-left: 150px;
+  }
+  .card{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: rgb(25, 161, 185) !important;
+    border-color:rgb(25, 161, 185) !important;
+    ;
+}
+  .ba{
+  display: flex;
+  flex-direction: row;
+  }
+  .honolulu{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 30vw;
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+
+    background-color:  rgb(53, 58, 64);
+    color: white;
+  }
+  .bs{
+    margin-left: 20px;
+    font-size:14px;
+  }
+  .bsO{
+    margin-left: 20px;
+  }
+
+  .btn-verde-2{
+    color: #fff;
+    background-color:rgb(150, 201, 62);
+    border-color: rgb(150, 201, 62);
+    }
+    
+    .btn-verde-2:hover {
+      color: #fff;
+      background-color: #157347;
+      border-color: #146c43;
+    }
+    .btn-check:focus + .btn-verde-2, .btn-verde-2:focus {
+      color: #fff;
+      background-color: #157347;
+      border-color: #146c43;
+      box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+    }
+    .btn-check:checked + .btn-verde-2, .btn-check:active + .btn-verde-2, .btn-verde-2:active, .btn-verde-2.active, .show > .btn-verde-2.dropdown-toggle {
+      color: #fff;
+      background-color: #146c43;
+      border-color: #13653f;
+    }
+    .btn-check:checked + .btn-verde-2:focus, .btn-check:active + .btn-verde-2:focus, .btn-verde-2:active:focus, .btn-verde-2.active:focus, .show > .btn-verde-2.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+    }
+    .btn-verde-2:disabled, .btn-verde-2.disabled {
+      color: #fff;
+      background-color: #198754;
+      border-color: #198754;
+    }
+    .mx-8 {
+      margin-right: 21.5rem !important;
+      margin-left: 21.5rem !important;
+    }
+    .fs-7 {
+      font-size: 0.9rem !important;
+    }
+    .bg-color-foother{
+      --bs-bg-opacity: 1;
+      background-image: linear-gradient(to right top, #1c3643, #1c3947, #1c3b4c, #1c3e50, #1c4155, #1c4359, #1c465d, #1c4861, #1c4b65, #1d4d69, #1d506e, #1e5372)!important;
+    }
